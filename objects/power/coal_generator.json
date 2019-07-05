@@ -1,0 +1,48 @@
+{
+  "name" : "Coal Generator",
+  "char" : "G",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    0,
+    0
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_MAIN",
+  "mass" : 0.05,
+  "item_machine" : {
+    "Machine" : {
+      "input" : [
+        [
+          "coal",
+          5
+        ]
+      ]
+    }
+  },
+  "machine" : {
+    "Machine" : {
+      "output" : [
+        [
+          "power",
+          10
+        ]
+      ]
+    }
+  },
+  "gas_machine" : {
+    "Machine" : {
+      "output" : [
+        [
+          "carbon dioxide",
+          2
+        ]
+      ]
+    }
+  },
+  "runnable" : {
+    "Runnable" : {}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name" : "Small Liquid Tank",
+  "char" : "t",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    130,
+    220
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_MAIN",
+  "mass" : 0.05,
+  "system_storage" : {
+    "SystemStorage" : {
+      "capacity" : 1000,
+      "system_info" : "LIQUID",
+      "auto_discharge" : 0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name" : "Gas Vent",
+  "char" : "e",
+  "blocks_solids" : false,
+  "blocks_liquid" : false,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    0,
+    0
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_GAS_PIPE",
+  "mass" : 0.05,
+  "system_storage" : {
+    "Vent" : {
+      "vent_rate" : 5,
+      "max_pressure" : 101,
+      "system_info" : "GAS"
+    }
+  }
+}

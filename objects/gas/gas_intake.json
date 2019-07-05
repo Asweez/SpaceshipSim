@@ -1,0 +1,21 @@
+{
+  "name" : "Gas Intake",
+  "char" : "i",
+  "blocks_solids" : false,
+  "blocks_liquid" : false,
+  "blocks_gas" : false,
+  "fg" : [
+    150,
+    255,
+    150
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_GAS_PIPE",
+  "mass" : 0.05,
+  "gas_machine" : {
+    "Intake" : {
+      "system_info" : "GAS",
+      "intake_capacity" : 5
+    }
+  }
+}

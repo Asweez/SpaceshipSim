@@ -1,0 +1,21 @@
+{
+  "name" : "Sealed Door",
+  "char" : " ",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : true,
+  "fg" : [
+    0,
+    255,
+    255
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_MAIN",
+  "mass" : 0,
+  "triggerable" : {
+    "Door" : {
+      "closed_char" : "|",
+      "open_char" : "/"
+    }
+  }
+}

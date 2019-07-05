@@ -1,0 +1,21 @@
+{
+  "name" : "Gas Pump",
+  "char" : "p",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    255,
+    50
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_GAS_PIPE",
+  "mass" : 0.05,
+  "network_connector" : {
+    "Pump" : {
+      "system_info" : "GAS",
+      "output_supply" : 10
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name" : "Small Battery",
+  "char" : "b",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : false,
+  "fg" : [
+    23,
+    200,
+    0
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_MAIN",
+  "mass" : 0.05,
+  "system_storage" : {
+    "SystemStorage" : {
+      "capacity" : 1000,
+      "system_info" : "POWER"
+    }
+  }
+}

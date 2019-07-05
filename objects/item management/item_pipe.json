@@ -1,0 +1,21 @@
+{
+  "name" : "Item Pipe",
+  "char" : "i",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    0,
+    0
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_ITEM_PIPE",
+  "mass" : 0.05,
+  "item_pipe" : {
+    "Connector" : {
+      "capacity" : 1000,
+      "sys_info" : "ITEM"
+    }
+  }
+}

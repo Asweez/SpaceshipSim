@@ -1,0 +1,21 @@
+{
+  "name" : "Gas Pipe",
+  "char" : " ",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    0,
+    0
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_GAS_PIPE",
+  "mass" : 0.05,
+  "gas_pipe" : {
+    "Connector" : {
+      "capacity" : 20,
+      "sys_info" : "GAS"
+    }
+  }
+}

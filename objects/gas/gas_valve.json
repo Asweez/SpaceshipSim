@@ -1,0 +1,20 @@
+{
+  "name" : "Gas Valve",
+  "char" : "v",
+  "blocks_solids" : false,
+  "blocks_liquid" : false,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    0,
+    0
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_GAS_PIPE",
+  "mass" : 0.05,
+  "network_connector" : {
+    "Switch" : {
+      "system_info" : "GAS"
+    }
+  }
+}

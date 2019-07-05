@@ -1,0 +1,20 @@
+{
+  "name" : "Gas Filter",
+  "char" : "f",
+  "blocks_solids" : false,
+  "blocks_liquid" : false,
+  "blocks_gas" : false,
+  "fg" : [
+    180,
+    90,
+    255
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_GAS_PIPE",
+  "mass" : 0.05,
+  "network_connector" : {
+    "Filter" : {
+      "system_info" : "GAS"
+    }
+  }
+}

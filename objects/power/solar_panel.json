@@ -1,0 +1,25 @@
+{
+  "name" : "Small Solar Panel",
+  "char" : "s",
+  "blocks_solids" : false,
+  "blocks_liquid" : false,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    0,
+    0
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_ARMOR",
+  "mass" : 0.05,
+  "machine" : {
+    "Machine" : {
+      "output" : [
+        [
+          "power",
+          10
+        ]
+      ]
+    }
+  }
+}

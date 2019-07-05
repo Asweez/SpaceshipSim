@@ -1,0 +1,19 @@
+{
+  "name" : "Wall",
+  "char" : " ",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : true,
+  "fg" : [
+    0,
+    0,
+    0
+  ],
+  "bg" : [
+    80,
+    60,
+    120
+  ],
+  "sorting_index" : "SORTING_MAIN",
+  "mass" : 0
+}

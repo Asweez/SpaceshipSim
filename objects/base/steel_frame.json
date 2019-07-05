@@ -1,0 +1,19 @@
+{
+  "name" : "Steel Frame",
+  "char" : " ",
+  "blocks_solids" : false,
+  "blocks_liquid" : false,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    0,
+    0
+  ],
+  "bg" : [
+    100,
+    100,
+    100
+  ],
+  "sorting_index" : "SORTING_FRAME",
+  "mass" : 0
+}

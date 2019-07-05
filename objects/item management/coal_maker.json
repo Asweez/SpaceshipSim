@@ -1,0 +1,25 @@
+{
+  "name" : "Coal Generator",
+  "char" : "c",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    0,
+    0
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_MAIN",
+  "mass" : 0.05,
+  "item_machine" : {
+    "Machine" : {
+      "output" : [
+        [
+          "coal",
+          6
+        ]
+      ]
+    }
+  }
+}

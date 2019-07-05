@@ -1,0 +1,21 @@
+{
+  "name" : "Basic Wire",
+  "char" : " ",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    0,
+    0
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_WIRE",
+  "mass" : 0.05,
+  "wire" : {
+    "Connector" : {
+      "capacity" : 20,
+      "sys_info" : "POWER"
+    }
+  }
+}

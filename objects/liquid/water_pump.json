@@ -1,0 +1,28 @@
+{
+  "name" : "Water Pump",
+  "char" : "p",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    0,
+    0
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_MAIN",
+  "mass" : 0.05,
+  "liquid_machine" : {
+    "Machine" : {
+      "output" : [
+        [
+          "water",
+          10
+        ]
+      ]
+    }
+  },
+  "runnable" : {
+    "Runnable" : {}
+  }
+}

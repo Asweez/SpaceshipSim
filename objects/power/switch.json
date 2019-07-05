@@ -1,0 +1,20 @@
+{
+  "name" : "Switch",
+  "char" : "w",
+  "blocks_solids" : false,
+  "blocks_liquid" : false,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    0,
+    0
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_WIRE",
+  "mass" : 0.05,
+  "network_connector" : {
+    "Switch" : {
+      "system_info" : "POWER"
+    }
+  }
+}

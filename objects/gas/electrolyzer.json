@@ -1,0 +1,52 @@
+{
+  "name" : "Electrolyzer",
+  "char" : "E",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : false,
+  "fg" : [
+    100,
+    100,
+    255
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_MAIN",
+  "mass" : 0.05,
+  "gas_machine" : {
+    "Machine" : {
+      "output" : [
+        [
+          "oxygen",
+          8
+        ],
+        [
+          "hydrogen",
+          1
+        ]
+      ]
+    }
+  },
+  "runnable" : {
+    "Runnable" : {}
+  },
+  "liquid_machine" : {
+    "Machine" : {
+      "input" : [
+        [
+          "water",
+          9
+        ]
+      ]
+    }
+  },
+  "machine" : {
+    "Machine" : {
+      "input" : [
+        [
+          "power",
+          10
+        ]
+      ]
+    }
+  }
+}

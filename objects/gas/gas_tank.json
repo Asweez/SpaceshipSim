@@ -1,0 +1,22 @@
+{
+  "name" : "Small Gas Tank",
+  "char" : "t",
+  "blocks_solids" : true,
+  "blocks_liquid" : true,
+  "blocks_gas" : false,
+  "fg" : [
+    0,
+    255,
+    0
+  ],
+  "bg" : null,
+  "sorting_index" : "SORTING_MAIN",
+  "mass" : 0.05,
+  "system_storage" : {
+    "SystemStorage" : {
+      "capacity" : 1000,
+      "system_info" : "GAS",
+      "auto_discharge" : 0
+    }
+  }
+}
